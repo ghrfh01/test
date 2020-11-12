@@ -24,7 +24,7 @@ public class ExceptionPerformance {
     public static void main(String[] args) {
         long start = System.nanoTime();
         testException(null);
-        //testIf(null);
+        //testIf(null);额312
         System.out.println("cost " + (System.nanoTime()  - start));
     }
 
